@@ -1,0 +1,24 @@
+.row {
+	text-align: center;
+}
+
+.board {
+	display: inline-block;
+	width: 248px;
+}
+
+.cell {
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+
+.h {
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+}
+
+.v {
+	border-left: 4px solid black;
+	border-right: 4px solid black;
+}

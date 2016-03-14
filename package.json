@@ -4,7 +4,8 @@
   "description": "tic tac toe vanilla js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm start"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
+    "express": "^4.13.4",
     "express-generator": "^4.13.1"
   }
 }
