@@ -5,22 +5,23 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Tic Tac Toe</title>
 	<link rel="stylesheet" href="tictactoe.css">
+		<script src="tictactoe.js" type="text/javascript" charset="utf-8" async defer></script>
 </head>
 <body>
 	<h1>Vanilla Javascript Tic Tac Toe</h1>
-		<div class='row'>
-			<div class='board'>
-				<div id='1' class='cell'></div>
-				<div id='2' class='cell v'></div>
-				<div id='3' class='cell'></div>
-				<div id='4' class='cell h '></div>
-				<div id='5' class='cell h v'></div>
-				<div id='6' class='cell h'></div>
-				<div id='7' class='cell'></div>
-				<div id='8' class='cell v'></div>
-				<div id='9' class='cell'></div>
+		<div class="row">
+			<div class="board">
+				<div id="1" onClick="choose(1)" class="cell"></div>
+				<div id="2" onClick="choose(2)" class="cell v"></div>
+				<div id="3" onClick="choose(3)" class="cell"></div>
+				<div id="4" onClick="choose(4)" class="cell h "></div>
+				<div id="5" onClick="choose(5)" class="cell h v"></div>
+				<div id="6" onClick="choose(6)" class="cell h"></div>
+				<div id="7" onClick="choose(7)" class="cell"></div>
+				<div id="8" onClick="choose(8)" class="cell v"></div>
+				<div id="9" onClick="choose(9)" class="cell"></div>
 			</div>
 		</div>
-	<script src="tictactoe.js" type="text/javascript" charset="utf-8" async defer></script>
+		<h2 id="msg"></h2>
 </body>
 </html>
