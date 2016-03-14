@@ -1,0 +1,26 @@
+{
+  "name": "tictactoejs",
+  "version": "1.0.0",
+  "description": "tic tac toe vanilla js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shazzadevacademy/tictactoejs.git"
+  },
+  "author": "Sharon & John Rumsey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shazzadevacademy/tictactoejs/issues"
+  },
+  "homepage": "https://github.com/shazzadevacademy/tictactoejs#readme",
+  "devDependencies": {
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "express-generator": "^4.13.1"
+  }
+}
